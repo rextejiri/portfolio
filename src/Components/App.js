@@ -1,6 +1,10 @@
 import './App.css';
 import Header from './Header.js'
 import Intro from './Intro.js'
+import About from './About.js'
+import Tech from './Tech.js'
+
+
 
 
 function App() {
@@ -8,6 +12,8 @@ function App() {
     <div className="App">
     <Header />
     <Intro />
+    <About />
+    <Tech />
     </div>
   );
 }
