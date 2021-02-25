@@ -3,6 +3,8 @@ import Header from './Header.js'
 import Intro from './Intro.js'
 import About from './About.js'
 import Tech from './Tech.js'
+import Projects from './Projects.js'
+
 
 
 
@@ -14,6 +16,7 @@ function App() {
     <Intro />
     <About />
     <Tech />
+    <Projects />
     </div>
   );
 }

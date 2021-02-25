@@ -1,6 +1,5 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
-import SendIcon from '@material-ui/icons/Send';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { faGem,faDatabase  } from '@fortawesome/free-solid-svg-icons'
@@ -30,8 +29,7 @@ export default function Header() {
       { name: "Ruby", icon: faGem },
       { name: "Database", icon: faDatabase },
       { name: "Figma", icon: faFigma },
-
-
+      { name: "Bootstrap", icon: faBootstrap },
   	];
 
   return (
