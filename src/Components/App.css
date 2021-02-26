@@ -28,9 +28,7 @@ body {
   color: var(--icons);
 }
 
-.SendIcon {
-  transform: rotateX(23);
-}
+
 
 
 
@@ -53,6 +51,7 @@ body {
   justify-content: space-between;
   height: 600px;
   box-sizing: border-box;
+  margin-bottom: 228px;
 }
 
 .subtitle{
@@ -60,6 +59,7 @@ body {
   font-weight: 400px;
   font-size: 16px;
   line-height: 1.75em;
+  text-transform: capitalize;
 }
 
 .introMsg {
@@ -84,4 +84,44 @@ body {
   color: var(--icon);
   opacity: .8;
   margin-bottom: -18px;
+}
+
+.about {
+  grid-column: 2/ span 6;
+  display: flex;
+  height: 600px;
+  position: relative;
+  justify-content: space-between;
+}
+.headshot{
+  /* position: absolute; */
+  align-self: flex-start;
+  margin-left: auto;
+  opacity: .7;
+  z-index: -1;
+
+}
+.text{
+  position: absolute;
+  z-index: auto;
+  align-self: flex-start;
+  height: 562px;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: space-around;
+}
+.aboutMe{
+  height: 562px;
+  font-family: Philosopher sans-serif;
+  font-size: 24px;
+}
+
+.sub{
+  margin-bottom: 100px;
+  font-family: Philosopher sans-serif;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 1.75em;
+  text-transform: capitalize;
 }
