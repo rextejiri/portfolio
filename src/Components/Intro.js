@@ -1,5 +1,4 @@
 import React from 'react';
-import Typography from '@material-ui/core/Typography';
 import ExpandMore from '@material-ui/icons/ExpandMore';
 
 
@@ -12,8 +11,8 @@ export default function Header() {
 
   return (
     <div className="Intro">
-      <Typography className="subtitle">{subtitle}</Typography>
-      <Typography className="introMsg">{introMsg}</Typography>
+      <h6 className="subtitle">{subtitle}</h6>
+      <h1 className="introMsg">{introMsg}</h1>
       <div className="dropDown">
         <ExpandMore />
         <ExpandMore />
