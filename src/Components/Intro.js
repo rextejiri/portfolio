@@ -14,10 +14,9 @@ export default function Header() {
       <h6 className="subtitle">{subtitle}</h6>
       <h1 className="introMsg">{introMsg}</h1>
       <div className="dropDown">
-        <ExpandMore />
-        <ExpandMore />
-        <ExpandMore />
-        <ExpandMore />
+        <ExpandMore  fontSize="large" className="one" />
+        <ExpandMore  fontSize="large" className="two" />
+        <ExpandMore  fontSize="large" className="three" />
       </div>
     </div>
   );
