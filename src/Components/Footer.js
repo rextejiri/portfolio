@@ -8,7 +8,8 @@ export default function Header() {
 
   return (
     <div className="footer">
-      <Typography>tejirichuks@gmail.com</Typography>
+     <hr />
+      <h4>tejirichuks@gmail.com</h4>
     </div>
 
   );

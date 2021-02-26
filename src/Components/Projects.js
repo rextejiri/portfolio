@@ -3,35 +3,35 @@ import Typography from "@material-ui/core/Typography";
 export default function Experience() {
 	return (
 		<React.Fragment>
-			<Typography variant="h2">Some projects I've Worked On:</Typography>
 			<div className="projects">
+      <h4>Some projects I've Worked On:</h4>
 				<div>
             <div>
-              <Typography>E-Commerce Website</Typography>
+              <h4>E-Commerce Website</h4>
             	<img />
             </div>
-            <Typography></Typography>
+            <p></p>
         </div>
         <div>
           <div>
-            <Typography>Bestie Social Media</Typography>
+            <h4>Bestie Social Media</h4>
           	<img />
           </div>
-            <Typography></Typography>
+            <p></p>
         </div>
         <div>
           <div>
-            <Typography>Weather App</Typography>
+            <h4>Weather App</h4>
             <img />
           </div>
-            <Typography></Typography>
+            <p></p>
         </div>
         <div>
           <div>
-            <Typography>Medical Dashboard</Typography>
+            <h4>Medical Dashboard</h4>
             <img />
           </div>
-            <Typography></Typography>
+            <p></p>
         </div>
 			</div>
 		</React.Fragment>

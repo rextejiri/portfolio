@@ -147,6 +147,7 @@ body {
   height: 500px;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 283px;
 }
 
 .iconContainer {
@@ -186,4 +187,11 @@ body {
   line-height: 1.75em;
   text-transform: capitalize;
   margin-bottom: 24px;
+}
+
+.projects{
+  grid-column: 2/ span 6;
+}
+.footer {
+  grid-column: 2/ span 6;
 }
