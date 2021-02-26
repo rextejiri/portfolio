@@ -1,5 +1,4 @@
 import React from 'react';
-import Typography from '@material-ui/core/Typography';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { faGem,faDatabase  } from '@fortawesome/free-solid-svg-icons'
@@ -34,21 +33,23 @@ export default function Header() {
 
   return (
     <div className="tech">
-      <Typography variant="h4">Technologies</Typography>
-      {technologies.map((tech, index) => {
-          return (
-            <div className="icons">
-              <FontAwesomeIcon
-              icon={tech.icon}
-              title={tech.name}
+      <h4 className="technology">Technologies</h4>
+      <div className="iconContainer">
+        {technologies.map((tech, index) => {
+            return (
+                <div  className="icons">
+                  <FontAwesomeIcon className="eachIcon"
+                  icon={tech.icon}
+                  title={tech.name}
 
-              alt={tech.name}/>
-              <p className="iconName">
-                {tech.name}
-              </p>
-            </div>
-          );
-        })}
+                  alt={tech.name}/>
+                  <p className="iconName">
+                    {tech.name}
+                  </p>
+                </div>
+            );
+          })}
+      </div>
     </div>
   );
 
