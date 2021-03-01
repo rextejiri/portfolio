@@ -226,3 +226,18 @@ body {
 .footer {
   grid-column: 2/ span 6;
 }
+
+.contact{
+  display: flex;
+
+}
+
+.contactIcons{
+  display: flex;
+  margin-left: auto;
+  justify-content: space-between;
+  width: 20%;
+}
+/* .contactIcon {
+  font-size: 34px;
+} */
