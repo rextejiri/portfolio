@@ -141,13 +141,13 @@ body {
 }
 
 .tech {
-  grid-column: 3/ span 4;
+  grid-column: 3/7;
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: 540px;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 283px;
+  margin-bottom: 180px;
 }
 
 .iconContainer {
@@ -156,8 +156,8 @@ body {
   align-items: center;
   align-content: space-between;
   margin-left: 40px;
-  height: 500px;
-
+  height: 540px;
+  overflow: hidden;
 }
 .icons {
   width: 87px;
@@ -188,9 +188,40 @@ body {
   text-transform: capitalize;
   margin-bottom: 24px;
 }
-
+.projectFrame{
+  grid-column: 4/ 6;
+  font-family: Philosopher sans-serif;
+  font-weight: 700px;
+  font-size: 24px;
+  line-height: 1.75em;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 80px;
+  margin-top: 48px;
+}
 .projects{
-  grid-column: 2/ span 6;
+  grid-column: 3/ span 4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 120px;
+}
+.card {
+  width: 352.9px;
+  height: 249px;
+  margin-bottom: 48px;
+  text-align: center;
+  margin-top: 48px;
+}
+
+
+
+.project-img {
+  width: 352.9px;
+  height: 249px;
+  object-fit: cover;
+  border-radius: 24px;
+  margin-bottom: 24px;
 }
 .footer {
   grid-column: 2/ span 6;
