@@ -11,7 +11,7 @@ import {faJsSquare, faNode,
 
 
 
-export default function Header() {
+export default function Tech() {
   const technologies = [
   		{ name: "JavaScript", icon: faJsSquare },
   		{ name: "Node", icon: faNode },
