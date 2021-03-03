@@ -12,7 +12,7 @@ export default function About() {
         <h6 className="subtitle sub">{subtitle}</h6>
         <p className="aboutMe">{aboutMe}</p>
       </div>
-      <img src={HeadShot}  className="headshot"/>
+      <img src={HeadShot} alt=""  className="headshot"/>
     </div>
   );
 
