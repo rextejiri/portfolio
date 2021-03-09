@@ -7,6 +7,15 @@
   --transition: all 0.3s ease 0s;
 }
 
+a{
+  text-decoration: none;
+  color: var(--text);
+  transition: var(--transition);
+}
+a:hover{
+  transform: scale(1.03);
+}
+
 *{
   box-sizing: border-box;
   margin: 0;
