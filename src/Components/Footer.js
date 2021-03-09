@@ -8,9 +8,9 @@ import { faLinkedin, faGithub, faDiscord } from '@fortawesome/free-brands-svg-ic
 export default function Footer() {
 
 const contacts = [
-  {name: "LinkedIn", Icon: faLinkedin},
-  {name: "GitHub", Icon: faGithub},
-  {name: "Discord", Icon: faDiscord},
+  {name: "LinkedIn", Icon: faLinkedin, url: "https://www.linkedin.com/in/tejiri-ibihwiori/"},
+  {name: "GitHub", Icon: faGithub, url: "https://github.com/rextejiri"},
+  {name: "Discord", Icon: faDiscord, url: "https://discord.com/channels/@me"},
 ]
 
   return (
@@ -22,6 +22,7 @@ const contacts = [
         {
           contacts.map((contact, index)=> {
             return(
+              <a href={contact.url}>
               <div className="contactIcon">
                 <FontAwesomeIcon
                   icon={contact.Icon}
@@ -29,6 +30,7 @@ const contacts = [
                   alt={contact.name}
                 />
               </div>
+              </a>
             );
           })
         }
