@@ -6,7 +6,7 @@ import ExpandMore from '@material-ui/icons/ExpandMore';
 
 export default function Header() {
   const subtitle = "HI, I’M TEJIRI IBIHWIORI"
-  const introMsg = "A very hard working, meticulous developer with an art & design background. I create delightful and intuitive human-centered experiences at scale through innovation and product strategy."
+  const introMsg = "A dedicated developer with a flair for art and design, I craft delightful, intuitive, and human-centered experiences at scale. Combining meticulous attention to detail with a commitment to test-driven development and best practices, I transform complex challenges into elegant, enterprise-ready solutions."
 
 
   return (

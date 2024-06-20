@@ -11,12 +11,12 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 const Home = () => (
   <>
-    <Header />
-    <Intro />
-    <About />
-    <Tech />
-    <Projects />
-    <Footer />
+    <Header className='header-app' />
+    <Intro className='intro-app' />
+    <About className='about-app' />
+    <Tech className='tech-app' />
+    <Projects className='projects-app' />
+    <Footer className='footer-app' />
   </>
 );
 

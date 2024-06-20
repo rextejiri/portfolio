@@ -17,7 +17,7 @@ const contacts = [
     <div className="footer">
      <hr />
     <div className="contact">
-      <h4>©2021</h4>
+      <h4>©2024</h4>
       <div className="contactIcons">
         {
           contacts.map((contact, index)=> {
