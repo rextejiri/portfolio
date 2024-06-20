@@ -15,16 +15,16 @@ const contacts = [
 
   return (
     <div className="footer">
-     <hr />
+     <hr className="line" />
     <div className="contact">
-      <h4>©2024</h4>
+      <h4 >©2024</h4>
       <div className="contactIcons">
         {
           contacts.map((contact, index)=> {
             return(
               <a href={contact.url}>
               <div className="contactIcon">
-                <FontAwesomeIcon
+                <FontAwesomeIcon className="theIcon"
                   icon={contact.Icon}
                   title={contact.name}
                   alt={contact.name}

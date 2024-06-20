@@ -8,7 +8,7 @@ import Dashboard from './assets/images/Dashboard.png';
 
 export default function Projects() {
 	return (
-		<React.Fragment>
+		<React.Fragment className='theProject'>
 		<h1 className="projectFrame technology">Some projects I've Worked On:</h1>
 			<div className="projects">
 			<a href="https://github.com/rextejiri/testheroku">
