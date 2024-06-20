@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "homepage": "/",
   "engines": {
     "node": "16.20.2",
     "npm": "8.19.4"
